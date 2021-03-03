@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CLI
+namespace FedoraDev.Friday.CLI
 {
 	class EntryPoint
 	{
