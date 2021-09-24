@@ -25,6 +25,12 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_F402D4396942490E9A75ECE5839B9418"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -33,7 +39,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\FedoraDev.Friday.WindowsInstaller.msi"
+        "OutputFilename" = "8:Debug\\Install Friday.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -49,7 +55,7 @@
         "DisplayName" = "8:Release"
         "IsDebugOnly" = "11:FALSE"
         "IsReleaseOnly" = "11:TRUE"
-        "OutputFilename" = "8:Release\\FedoraDev.Friday.WindowsInstaller.msi"
+        "OutputFilename" = "8:Release\\Install Friday.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -90,6 +96,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F402D4396942490E9A75ECE5839B9418"
+            {
+            "SourcePath" = "8:..\\Resources\\Friday Icon.ico"
+            "TargetName" = "8:Friday Icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_B105C08BFB994531BC3C9EDC7E257FEE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -106,6 +132,28 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_5E754EC58C4C4470905EACC573443128"
+                    {
+                    "Name" = "8:Plugins"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_2FE90A0286BD4CC1AFBA97D6BFE6020F"
+                        "Folders"
+                        {
+                        }
+                    }
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B105C08BFB994531BC3C9EDC7E257FEE"
+                    {
+                    "Name" = "8:Resources"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_B77EEE5A6B79419DA58E8CFA99F304DF"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_BDAFC091DFA0405A83714B07FBAB2525"
@@ -147,7 +195,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:FedoraDev.Friday.WindowsInstaller"
         "ProductCode" = "8:{D21EFF03-2430-4035-B54D-A7FB11E9F659}"
-        "PackageCode" = "8:{CD77B290-9F98-4861-A998-C0B18E202A77}"
+        "PackageCode" = "8:{1DBB8FE3-02A8-41B6-852C-1FE9E95A55CB}"
         "UpgradeCode" = "8:{EDE876E2-2A68-4720-9EFF-F5A03ED497CD}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -267,6 +315,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_79907AD597314DE891E32F39C0B745A7"
+            {
+            "Name" = "8:Friday"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_4111E5208FB1430C8CFFEBD15203C073"
+            "Folder" = "8:_EA949A315CD64C54948AB33BD1E6CF99"
+            "WorkingFolder" = "8:_36CB3ADAE16B4591A66C57D7FE44C198"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B178FB9C2B1942048BD7A065A96C84E6"
+            {
+            "Name" = "8:Friday"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_4111E5208FB1430C8CFFEBD15203C073"
+            "Folder" = "8:_BDAFC091DFA0405A83714B07FBAB2525"
+            "WorkingFolder" = "8:_36CB3ADAE16B4591A66C57D7FE44C198"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

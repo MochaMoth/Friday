@@ -3,6 +3,15 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>Friday Icon.ico</ApplicationIcon>
+    <Authors>FedoraDev</Authors>
+    <Company>FedoraDevStudios</Company>
+    <Product>Friday</Product>
+    <PackageId>FedoraDev.Friday</PackageId>
+    <Description>Friday is an open-source C# AI Assistant built with modularity in mind.</Description>
+    <PackageProjectUrl>https://github.com/FedoraGameDev/Friday/</PackageProjectUrl>
+    <PackageIcon>Friday Icon.png</PackageIcon>
+    <RepositoryUrl>https://github.com/FedoraGameDev/Friday/</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
